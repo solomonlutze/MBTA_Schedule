@@ -1,5 +1,6 @@
 table {
     text-align: left;
+    border-spacing: 0px;
     td {
         padding: 5px 10px 5px 0px;
         &.cell-destination {
@@ -15,5 +16,8 @@ table {
     th {
         padding: 5px 10px 5px 0px;
         font-size: 18px;
+    }
+    tr:nth-child(odd) {
+        background-color: #EEE;
     }
 }

@@ -1,6 +1,6 @@
 A tool that fetches and displays latest MBTA train schedule info from http://developer.mbta.com/lib/gtrtfs/Departures.csv. Built as a code exercise for an interview.
 
-![departure times](https://i.imgur.com/Jn3EWWz.png)
+![departure times](https://i.imgur.com/uPqn8yj.png)
 
 To run locally:
 -clone
