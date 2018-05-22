@@ -1,0 +1,19 @@
+table {
+    text-align: left;
+    td {
+        padding: 5px 10px 5px 0px;
+        &.cell-destination {
+            font-weight: bold;
+        }
+        &.departed {
+            font-style: italic;
+        }
+        &.all-aboard, &.now-boarding {
+            font-weight: bold;
+        }
+    }
+    th {
+        padding: 5px 10px 5px 0px;
+        font-size: 18px;
+    }
+}
