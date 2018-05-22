@@ -25,12 +25,16 @@ export default class DataCell extends Component {
         }
         return "";
     }
+
     formatCellData(header, rawCellData) {
         switch (header) {
+            case 'Lateness':
+                return !!Number(rawCellData)  ? rawCellData : '-';
             case 'ScheduledTime':
                 return moment.unix(rawCellData).tz('America/New_York').format('h:mm A');
             case 'Track':
                 return rawCellData || "TBD";
+            
         }
         return rawCellData;
     }
